@@ -8,6 +8,7 @@ import { Routes, Route } from "react-router-dom"
 import { GithubProvider } from './components/context/github/GithubContext'
 import { AlertProvider } from './components/context/alert/AlertContext'
 import Alert from './components/layout/Alert'
+import User from './components/pages/User'
 const App = () => {
 
   return (
@@ -21,6 +22,7 @@ const App = () => {
               <Route path='/' element={<Home />} />
               <Route path='/about' element={<About />} />
               <Route path='/*' element={<NotFound />} />
+              <Route path='/user/:login' element={<User />} />
             </Routes>
           </main>
           <Footer />

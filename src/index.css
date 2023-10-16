@@ -5,3 +5,8 @@
 html {
   background-color: gray;
 }
+
+.custom-card-image .card.image-full::before {
+  border-radius: 0.05rem;
+  opacity: 0.5;
+}

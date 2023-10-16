@@ -13,11 +13,6 @@ const Navbar = ({ title }) => {
                     <Link to={"/"} className='align-middle first-letter:text-2xl first-letter:font-bold tracking-wider'>{title}</Link>
                 </div>
 
-                <div className='sm:hidden'>
-                    <h2 className='text-2xl first-letter:text-4xl ml-5'>
-                        Welcome to the <span className='font-bold text-3xl text-black'>Github App</span>
-                    </h2>
-                </div>
 
                 <div className='flex justify-end space-x-12'>
                     <button className='btn btn-sm btn-primary text-white'>
